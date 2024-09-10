@@ -9,7 +9,6 @@ function makeADictionary(jsonString) {
     let sorted = Object.keys(dictionary).sort();
     for (let term of sorted) {
         console.log(`Term: ${term} => Dictionary: ${dictionary[term]}`);
-
     }
 }
 makeADictionary([
