@@ -11,8 +11,6 @@ function makeADictionary(jsonString) {
         console.log(`Term: ${term} => Dictionary: ${dictionary[term]}`);
 
     }
-   
-
 }
 makeADictionary([
     '{"Coffee":"A hot drink made from the roasted and ground seeds (coffee beans) of a tropical shrub."}',
